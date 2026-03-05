@@ -1,3 +1,9 @@
+/* Nama File : MataKuliah.java
+  Deskripsi : berisi atribut dan method dalam class MataKuliah
+  Creator   : Quinta Aurabiansyah/24060124120016
+  Tanggal   : 5 Maret 2026
+*/
+
 public class MataKuliah {
   /************** ATRIBUT **************/
   private String idMatKul;

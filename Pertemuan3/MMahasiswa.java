@@ -1,3 +1,9 @@
+/* Nama File : MMahasiswa.java
+  Deskripsi : uji fungsi 
+  Creator   : Quinta Aurabiansyah/24060124120016
+  Tanggal   : 5 Maret 2026
+*/
+
 public class MMahasiswa {
   public static void main(String[] args) {
     // Membuat objek MataKuliah

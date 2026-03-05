@@ -1,3 +1,9 @@
+/* Nama File : Dosen.java
+  Deskripsi : berisi atribut dan method dalam class Dosen
+  Creator   : Quinta Aurabiansyah/24060124120016
+  Tanggal   : 5 Maret 2026
+*/
+
 public class Dosen{
     // Atribut
     private String Nama;
