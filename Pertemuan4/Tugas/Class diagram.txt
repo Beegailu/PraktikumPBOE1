@@ -1,0 +1,11 @@
+Berikut Class Diagram Latihan Inheritance
+
+                   Pegawai
+                      |
+           +----------+----------+
+           |                     |
+        Dosen                  Tendik
+           |
+   +-------+--------+
+   |                |
+DosenTetap       DosenTamu
