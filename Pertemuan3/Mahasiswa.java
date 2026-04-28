@@ -6,6 +6,8 @@
 
 import java.util.ArrayList;
 
+import src.Dosen;
+
 public class Mahasiswa {
   /************** ATRIBUT **************/
   private String nim;

@@ -1,0 +1,4 @@
+Menurut saya polimorfisme memungkinkan satu nama/antarmuka digunakan untuk banyak bentuk berbeda. 
+Misalnya sebuah variabel bertipe Anabul bisa menunjuk ke objek Kucing, Anjing, atau Burung, dan pemanggilan bersuara() secara otomatis 
+menjalankan implementasi yang sesuai dengan tipe objek sebenarnya bukan dari tipe variabelnya. 
+Ini membuat kode menjadi lebih fleksibel, mudah dikembangkan, dan juga tidak perlu banyak percabangan if/else.
