@@ -5,27 +5,27 @@
 */
  
 // Kelas Mahasiswa 
-class Mahasiswa2 {
+class Mahasiswa {
     private String nim;
     private String nama;
     private String programStudi;
  
     // 2c. Konstruktor tanpa parameter (default) 
-    public Mahasiswa2() {
+    public Mahasiswa() {
         this.nim          = "-999";
         this.nama         = "n/a";
         this.programStudi = "n/a";
     }
  
     // 2d. Konstruktor dengan tiga parameter 
-    public Mahasiswa2(String nim, String nama, String programStudi) {
+    public Mahasiswa(String nim, String nama, String programStudi) {
         this.nim          = nim;
         this.nama         = nama;
         this.programStudi = programStudi;
     }
  
     // 2e. Konstruktor copy / kloning 
-    public Mahasiswa2(Mahasiswa2 other) {
+    public Mahasiswa(Mahasiswa other) {
         this.nim          = other.nim;
         this.nama         = other.nama;
         this.programStudi = other.programStudi;
@@ -50,7 +50,7 @@ class Mahasiswa2 {
     }
  
     // Varian 3 : satu parameter objek Mahasiswa lain
-    public void setProgramStudi(Mahasiswa2 other) {
+    public void setProgramStudi(Mahasiswa other) {
         this.programStudi = other.programStudi;
     }
  
@@ -67,12 +67,12 @@ public class Overloading {
     public static void main(String[] args) {
  
         System.out.println("=== 2c. Konstruktor Default ===");
-        Mahasiswa2 mDefault = new Mahasiswa2();
+        Mahasiswa mDefault = new Mahasiswa();
         mDefault.tampil();
  
         System.out.println("\n=== 2d. Konstruktor Tiga Parameter ===");
-        Mahasiswa2 m1 = new Mahasiswa2("A001", "Budi Santoso", "Informatika");
-        Mahasiswa2 m2 = new Mahasiswa2("A002", "Sari Dewi",   "Sistem Informasi");
+        Mahasiswa m1 = new Mahasiswa("A001", "Budi Santoso", "Informatika");
+        Mahasiswa m2 = new Mahasiswa("A002", "Sari Dewi",   "Sistem Informasi");
         m1.tampil();
         System.out.println("---");
         m2.tampil();
@@ -80,7 +80,7 @@ public class Overloading {
         System.out.println("\n=== 2b. Overloading setProgramStudi ===");
  
         // Varian 1 – tanpa parameter
-        Mahasiswa2 mA = new Mahasiswa2("B001", "Andi", "TI");
+        Mahasiswa mA = new Mahasiswa("B001", "Andi", "TI");
         System.out.println("Sebelum setProgramStudi():");
         mA.tampil();
         mA.setProgramStudi();
@@ -89,21 +89,21 @@ public class Overloading {
  
         // Varian 2 – satu parameter String
         System.out.println("---");
-        Mahasiswa2 mB = new Mahasiswa2("B002", "Bela", "");
+        Mahasiswa mB = new Mahasiswa("B002", "Bela", "");
         mB.setProgramStudi("Teknik Elektro");
         System.out.println("Setelah setProgramStudi(String):");
         mB.tampil();
  
         // Varian 3 – satu parameter objek Mahasiswa lain
         System.out.println("---");
-        Mahasiswa2 mC = new Mahasiswa2("B003", "Citra", "");
+        Mahasiswa mC = new Mahasiswa("B003", "Citra", "");
         mC.setProgramStudi(m1);   // ambil prodi dari m1
         System.out.println("Setelah setProgramStudi(Mahasiswa) [ambil dari m1]:");
         mC.tampil();
  
         // 2e. Konstruktor kloning 
         System.out.println("\n=== 2e. Konstruktor Kloning ===");
-        Mahasiswa2 mKlon = new Mahasiswa2(m1);
+        Mahasiswa mKlon = new Mahasiswa(m1);
         System.out.println("Objek asli (m1):");
         m1.tampil();
         System.out.println("Objek klon:");
