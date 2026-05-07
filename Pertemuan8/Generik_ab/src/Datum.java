@@ -2,8 +2,8 @@
    Deskripsi   : Kelas generik Datum<T> untuk menyimpan objek dari kelas lain
                  dengan tipe data generik T. Kelas ini memiliki atribut isi,
                  konstruktor, selektor, dan mutator.
-   Pembuat     : Sulhan Fuadi (24060123130115)
-   Tanggal     : 30 Mei 2026
+   Pembuat     : Quinta Aurabiansyah/24060124120016
+   Tanggal     : 30 April 2026
 */
 
 public class Datum<T> {

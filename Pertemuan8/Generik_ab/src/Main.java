@@ -1,7 +1,7 @@
 /* Nama File : Main.java
    Deskripsi : Demo polimorfisme + simulasi perubahan data lengkap
-   Pembuat   : Sulhan Fuadi (24060123130115)
-   Tanggal   : 27 April 2025
+   Pembuat     : Quinta Aurabiansyah/24060124120016
+   Tanggal     : 30 April 2026
 */
 
 import java.util.ArrayList;
@@ -11,8 +11,8 @@ public class Main {
     // 1. Inisialisasi koleksi Anabul
     ArrayList<Anabul> koleksi = new ArrayList<>();
     koleksi.add(new Kucing("Kitty", 2, "Betina", "Putih"));
-    koleksi.add(new Anjing("Doggy", 3, "Jantan", "Cokelat"));
-    koleksi.add(new Burung("Tweety", 1, "Betina", "Kuning"));
+    koleksi.add(new Anjing("Blacky", 3, "Jantan", "Cokelat"));
+    koleksi.add(new Burung("Anton", 1, "Betina", "Kuning"));
 
     // 2. Simulasi awal 
     System.out.println("=== SIMULASI AWAL ===");

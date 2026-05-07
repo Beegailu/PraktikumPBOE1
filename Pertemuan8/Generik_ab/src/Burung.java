@@ -1,6 +1,6 @@
 /* Nama File  : Burung.java
    Deskripsi   : Subclass Burung, override gerak() & bersuara(), plus metode terbangTinggi()
-   Pembuat     : Quinta Aurabiansyah
+   Pembuat     : Quinta Aurabiansyah/24060124120016
    Tanggal     : 30 April 2026
 */
 
