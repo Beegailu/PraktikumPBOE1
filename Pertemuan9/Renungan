@@ -1,0 +1,5 @@
+RENUNGAN:
+Menurut saya, koleksi itu cara menyimpan banyak objek sekaligus dalam satu wadah, seperti antrean di klinik hewan dimana setiap hewan masuk dari belakang dan keluar dari depan secara berurutan.
+Kita bisa nyimpen objek dari berbagai subkelas berbeda (like Kucing, Anjing, dll) dalam satu antrean bertipe superclassnya (Anabul), lalu tetap bisa membedakan jenis aslinya menggunakan instanceof atau getClass()
+saat dibutuhkan.
+Koleksi itu sama dengan sebuah wadah dengan memanfaatkan pewarisan, sehingga kita tidak perlu membuat antrean terpisah untuk setiap jenis hewannya.
