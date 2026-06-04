@@ -2,7 +2,7 @@
  * File         : ReadSerializedPerson.java
  * Deskripsi    : Program untuk deserialisasi objek Person
  * Pembuat      : Quinta Aurabiansyah / 24060124120016
- * Tanggal      : Rabu, 25 Mei 2026
+ * Tanggal      : Senin, 25 Mei 2026
  */
 
 import java.io.*;
