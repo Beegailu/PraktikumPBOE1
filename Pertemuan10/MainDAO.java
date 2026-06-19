@@ -2,7 +2,7 @@
  * File         : MainDAO.java
  * Deskripsi    : Main program untuk akses DAO
  * Pembuat      : Quinta Aurabiansyah / 24060124120016
- * Tanggal      : Rabu, 3 Juni 2026
+ * Tanggal      : Senin, 25 Mei 2026
  */
 
 public class MainDAO {

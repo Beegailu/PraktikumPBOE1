@@ -2,7 +2,7 @@
  * File         : DAOManager.java
  * Deskripsi    : pengelola DAO dalam program
  * Pembuat      : Quinta Aurabiansyah / 24060124120016
- * Tanggal      : Rabu, 3 Juni 2026
+ * Tanggal      : Rabu, 25 Mei 2026
  */
 
 public class DAOManager {
